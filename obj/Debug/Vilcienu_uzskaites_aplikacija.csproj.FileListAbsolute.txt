@@ -1,9 +1,7 @@
-C:\Users\Aksels\source\repos\Vilcienu_uzskaites_aplikacija\Vilcienu_uzskaites_aplikacija\obj\Debug\Vilcienu_uzskaites_aplikacija.csprojAssemblyReference.cache
 C:\Users\Aksels\source\repos\Vilcienu_uzskaites_aplikacija\Vilcienu_uzskaites_aplikacija\obj\Debug\Vilcienu_uzskaites_aplikacija.auth_app.resources
 C:\Users\Aksels\source\repos\Vilcienu_uzskaites_aplikacija\Vilcienu_uzskaites_aplikacija\obj\Debug\Vilcienu_uzskaites_aplikacija.vagon_app.resources
 C:\Users\Aksels\source\repos\Vilcienu_uzskaites_aplikacija\Vilcienu_uzskaites_aplikacija\obj\Debug\Vilcienu_uzskaites_aplikacija.Properties.Resources.resources
 C:\Users\Aksels\source\repos\Vilcienu_uzskaites_aplikacija\Vilcienu_uzskaites_aplikacija\obj\Debug\Vilcienu_uzskaites_aplikacija.csproj.GenerateResource.cache
-C:\Users\Aksels\source\repos\Vilcienu_uzskaites_aplikacija\Vilcienu_uzskaites_aplikacija\obj\Debug\Vilcienu_uzskaites_aplikacija.csproj.CoreCompileInputs.cache
 C:\Users\Aksels\source\repos\Vilcienu_uzskaites_aplikacija\Vilcienu_uzskaites_aplikacija\bin\Debug\Vilcienu_uzskaites_aplikacija.exe.config
 C:\Users\Aksels\source\repos\Vilcienu_uzskaites_aplikacija\Vilcienu_uzskaites_aplikacija\bin\Debug\Vilcienu_uzskaites_aplikacija.exe
 C:\Users\Aksels\source\repos\Vilcienu_uzskaites_aplikacija\Vilcienu_uzskaites_aplikacija\bin\Debug\Vilcienu_uzskaites_aplikacija.pdb

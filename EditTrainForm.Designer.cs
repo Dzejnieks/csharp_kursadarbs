@@ -136,7 +136,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 450);
+            this.ClientSize = new System.Drawing.Size(304, 185);
             this.Controls.Add(this.lb_train_number);
             this.Controls.Add(this.btn_edit_train);
             this.Controls.Add(this.label5);
@@ -148,6 +148,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tb_train_track);
             this.Controls.Add(this.tb_train_model);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "EditTrainForm";
             this.Text = "Edit train";
             this.ResumeLayout(false);

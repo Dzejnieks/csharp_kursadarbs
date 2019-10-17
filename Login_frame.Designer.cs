@@ -111,8 +111,9 @@
             this.Controls.Add(this.label_username);
             this.Controls.Add(this.tb_password);
             this.Controls.Add(this.tb_username);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "auth_app";
-            this.Text = "Autorizacija";
+            this.Text = "Authentificatiom";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
