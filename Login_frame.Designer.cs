@@ -36,6 +36,7 @@
             this.label_password = new System.Windows.Forms.Label();
             this.btn_login = new System.Windows.Forms.Button();
             this.label_online = new System.Windows.Forms.Label();
+            this.label_wrong_cred = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tb_username
@@ -44,7 +45,6 @@
             this.tb_username.Name = "tb_username";
             this.tb_username.Size = new System.Drawing.Size(156, 20);
             this.tb_username.TabIndex = 0;
-            this.tb_username.Text = "admin";
             // 
             // contextMenuStrip1
             // 
@@ -55,9 +55,10 @@
             // 
             this.tb_password.Location = new System.Drawing.Point(12, 83);
             this.tb_password.Name = "tb_password";
+            this.tb_password.PasswordChar = '*';
             this.tb_password.Size = new System.Drawing.Size(156, 20);
             this.tb_password.TabIndex = 2;
-            this.tb_password.Text = "admin";
+            this.tb_password.TextChanged += new System.EventHandler(this.tb_password_TextChanged);
             // 
             // label_username
             // 
@@ -99,12 +100,24 @@
             this.label_online.Visible = false;
             this.label_online.Click += new System.EventHandler(this.Label1_Click);
             // 
+            // label_wrong_cred
+            // 
+            this.label_wrong_cred.AutoSize = true;
+            this.label_wrong_cred.Location = new System.Drawing.Point(12, 9);
+            this.label_wrong_cred.Name = "label_wrong_cred";
+            this.label_wrong_cred.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label_wrong_cred.Size = new System.Drawing.Size(91, 13);
+            this.label_wrong_cred.TabIndex = 7;
+            this.label_wrong_cred.Text = "label_wrong_cred";
+            this.label_wrong_cred.Visible = false;
+            // 
             // auth_app
             // 
             this.AcceptButton = this.btn_login;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(205, 183);
+            this.Controls.Add(this.label_wrong_cred);
             this.Controls.Add(this.label_online);
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.label_password);
@@ -129,6 +142,7 @@
         private System.Windows.Forms.Label label_password;
         private System.Windows.Forms.Button btn_login;
         private System.Windows.Forms.Label label_online;
+        private System.Windows.Forms.Label label_wrong_cred;
     }
 }
 

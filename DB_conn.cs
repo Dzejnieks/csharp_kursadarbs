@@ -9,7 +9,7 @@ using MySql.Data.MySqlClient;
 namespace Vilcienu_uzskaites_aplikacija
 {
     //This class is responsible with keeping database information private, opening/closing db connection, and kind of like setter and getter for information (queries)
-    public class DB_conn
+    public class DB_conn :db_parent
     {
         private MySqlConnection connection;
         private string server;
@@ -33,15 +33,15 @@ namespace Vilcienu_uzskaites_aplikacija
             connection = new MySqlConnection(connectionString);
         }
         //helper methods
-        public void open_connection()
+        public new void open_connection()
         {
             this.conn().Open();
         }
-        public void close_connection()
+        public new void close_connection()
         {
             this.conn().Close();
         }
-        public MySqlConnection conn()
+        public new MySqlConnection conn()
         {
             MySqlConnection connection = new MySqlConnection(connectionString);
             return connection;

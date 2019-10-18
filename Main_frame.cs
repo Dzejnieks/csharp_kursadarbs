@@ -44,13 +44,14 @@ namespace Vilcienu_uzskaites_aplikacija
         {
             db.open_connection();
             listboxSortBy.Items.Clear();
-          //  string[] listArray = new string[db.get_table(sort_by_table).Rows.Count];
-
+            //  string[] listArray = new string[db.get_table(sort_by_table).Rows.Count];
+            int i = 0;
             foreach (DataRow row in db.get_table(sort_by_table).Rows)
             {
                 string value = row[sort_by_column].ToString();
                 if (!listboxSortBy.Items.Contains(value))
                 {
+
                     listboxSortBy.Items.Add(value);
                 }
             }

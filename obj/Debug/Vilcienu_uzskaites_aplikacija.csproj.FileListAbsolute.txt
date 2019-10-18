@@ -18,3 +18,4 @@ C:\Users\Aksels\source\repos\Vilcienu_uzskaites_aplikacija\Vilcienu_uzskaites_ap
 C:\Users\Aksels\source\repos\Vilcienu_uzskaites_aplikacija\Vilcienu_uzskaites_aplikacija\obj\Debug\Vilcienu_uzskaites_aplikacija.EditWagonForm.resources
 C:\Users\Aksels\source\repos\Vilcienu_uzskaites_aplikacija\Vilcienu_uzskaites_aplikacija\obj\Debug\Vilcienu_uzskaites_aplikacija.EditTrainForm.resources
 C:\Users\Aksels\source\repos\Vilcienu_uzskaites_aplikacija\Vilcienu_uzskaites_aplikacija\obj\Debug\Vilcienu_uzskaites_aplikacija.DeleteForm.resources
+C:\Users\Aksels\source\repos\Vilcienu_uzskaites_aplikacija\Vilcienu_uzskaites_aplikacija\obj\Debug\Vilcienu_uzskaites_aplikacija.csprojAssemblyReference.cache

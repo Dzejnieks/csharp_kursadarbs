@@ -53,6 +53,7 @@
     <Compile Include="AddTrainForm.Designer.cs">
       <DependentUpon>AddTrainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="db_parent.cs" />
     <Compile Include="DB_conn.cs" />
     <Compile Include="AddWagonForm.cs">
       <SubType>Form</SubType>

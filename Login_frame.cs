@@ -49,11 +49,18 @@ namespace Vilcienu_uzskaites_aplikacija
         {
             if (database.verify_user(tb_username.Text,tb_password.Text))
             {
+                label_wrong_cred.Visible = false;
                 vagon_app f = new vagon_app();
                 Hide();
                 f.ShowDialog();
                 f = null;
                 Show();
+            }
+            else
+            {
+                label_wrong_cred.Visible = true;
+                label_wrong_cred.Text = "Wrong credentials, try again";
+                label_wrong_cred.ForeColor = System.Drawing.Color.Red;
             }
         }
 
@@ -62,5 +69,9 @@ namespace Vilcienu_uzskaites_aplikacija
 
         }
 
+        private void tb_password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
